@@ -1,19 +1,20 @@
 let express = require('express')
 let router = express.Router()
-const { body } = require('express-validator')
 const { UserController } = require('../controllers')
-const { emailValidOrNull } = require('../middleware/validate')
+const { validate, useEmailValidation } = require('../middleware/validate')
 
 // User routes
 router.get('/users/:id', UserController.getById)
 router.post(
   '/users',
-  emailValidOrNull,
+  useEmailValidation(),
+  validate,
   UserController.create
 )
 router.patch(
   '/users/:id',
-  emailValidOrNull,
+  useEmailValidation(),
+  validate,
   UserController.patch
 )
 

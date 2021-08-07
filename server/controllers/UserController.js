@@ -10,11 +10,6 @@ module.exports = {
     return res.status(200).send(user)
   },
   create: async (req, res) => {
-    const validErros = validationResult(req)
-    if (!validErros.isEmpty()) {
-      return res.status(400).json({ errors: validErros.array() });
-    }
-
     const [err, user] = await to(User.findByPk(req.body.id))
     if (err) return res.status(500).send(err)
     if (user) return res.status(200).send(user)

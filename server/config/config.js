@@ -1,4 +1,4 @@
-require('dotenv').config(); // this is important!
+require('dotenv').config()
 
 const creds = {
   "development": {
