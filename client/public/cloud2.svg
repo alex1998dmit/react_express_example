@@ -1,0 +1,9 @@
+<svg width="111px" height="27px" viewBox="0 0 111 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.2">
+        <g id="back" transform="translate(0.000000, -559.000000)" fill="#FFFFFF">
+            <g id="clouds" transform="translate(0.000000, 71.000000)">
+                <path d="M66.5412698,501.33979 C66.5412698,501.33979 59.5389569,486.923909 43.7422222,488.064255 C30.2544218,489.037053 26.7524263,501.500498 26.7524263,501.500498 C26.7524263,501.500498 18.8003628,496.898085 11.1570522,500.031898 C1.18634921,504.119703 0,512.650923 0,512.650923 L111,515 C111,515 98.7035828,491.769095 66.5412698,501.33979" id="cloud" transform="translate(55.500000, 501.500000) scale(-1, 1) translate(-55.500000, -501.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
